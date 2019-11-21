@@ -289,7 +289,7 @@ APlayerStateVR * AInteractableActor::GetPlayerState()
 	}
 
 	//if (m_PlayerStateVR == nullptr)
-	//	GEngine->AddOnScreenDebugMessage(10, 10, FColor::Orange, "Nullref playerStateVR");
+		//GEngine->AddOnScreenDebugMessage(10, 10, FColor::Orange, "Nullref playerStateVR");
 
 	return m_PlayerStateVR;
 }
